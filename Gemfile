@@ -5,7 +5,7 @@ ruby "3.1.2"
 gem "rails", "~> 7.0.4"
 gem 'bcrypt', '3.1.13'
 gem "sprockets-rails"
-gem "sqlite3", "~> 1.4"
+gem 'pg'
 gem "puma", "~> 5.0"
 gem "importmap-rails"
 gem 'bootstrap-sass', '~> 3.4.1'
