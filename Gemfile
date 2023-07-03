@@ -19,6 +19,7 @@ gem 'minitest', group: :test
 gem 'minitest-reporters', group: :test
 
 group :development, :test do
+  gem 'rubocop'
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
   gem "byebug"
 end
