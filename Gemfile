@@ -5,8 +5,7 @@ ruby "3.1.2"
 gem "rails", "~> 7.0.4"
 gem 'bcrypt', '3.1.13'
 gem 'faker', '~> 3.2'
-gem 'will_paginate', '~> 4.0'
-gem 'bootstrap-will_paginate', '~> 1.0'
+gem 'kaminari'
 gem "sprockets-rails"
 gem 'pg'
 gem "puma", "~> 5.0"
