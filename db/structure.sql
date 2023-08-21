@@ -79,7 +79,10 @@ CREATE TABLE public.users (
     updated_at timestamp(6) without time zone NOT NULL,
     password_digest character varying,
     remember_digest character varying,
-    admin boolean DEFAULT false
+    admin boolean DEFAULT false,
+    activation_digest character varying,
+    activated boolean DEFAULT false,
+    activated_at timestamp(6) without time zone
 );
 
 
@@ -182,6 +185,7 @@ INSERT INTO "schema_migrations" (version) VALUES
 ('20230226073604'),
 ('20230531081843'),
 ('20230630085539'),
-('20230811082738');
+('20230811082738'),
+('20230814140210');
 
 
